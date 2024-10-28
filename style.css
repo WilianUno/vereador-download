@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #333;
+}
+
+.box_downloads {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.box_downloads ul {
+    margin-top: 50px;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.box_downloads li {
+    margin: 10px 0;
+}
+
+.box_downloads a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.box_downloads a:hover {
+    color: #0056b3;
+}
